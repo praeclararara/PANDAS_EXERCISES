@@ -1,3 +1,16 @@
+# HELLO MONEY IN POLITICS
+By election day, nearly $500 million dollars was spent by political campaigns that sought to influence voters to vote yes or no on those 17 propositions.
+We know that because every dollar that is raised or spent by political campaigns in the state of California has to be disclosed. That’s thanks to the Political Reform Act of 1974, which was itself enacted by voters via a proposition.
+Groups that support or oppose propositions, known as “committees,” must register with the secretary of state and file periodic reports. Those reports list the names, occupations and employers of donors, as well as how campaign funds are spent.
+Those reports are stored in a public database maintained by the government. Almost every state has one like it.
+In California, the database is called CAL-ACCESS, where you can download row data: https://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity
+Unfortunately, the downloadable files are so jumbled, dirty and difficult that they are rarely used. In 2014, a team of journalists, academics and developers formed to solve the problem. They call themselves the California Civic Data Coalition: https://californiacivicdata.org/
+An experimental early versions is used for this exercise (how to import that data into pandas and Jupyter notebook to start an analysis).
+
+---source: https://www.firstpythonnotebook.org/money/index.html
+
+
+
 # PANDAS_EXERCISES
 
 Data sets for the TRAVEL_BLOG exercise: http://46.101.230.157/dilan/pandas_tutorial_read.csv AND http://46.101.230.157/dilan/pandas_tutorial_buy.csv
