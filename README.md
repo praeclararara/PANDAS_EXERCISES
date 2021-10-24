@@ -11,7 +11,11 @@ An experimental early versions is used for this exercise (how to import that dat
 
 ---source: https://www.firstpythonnotebook.org/money/index.html
 
+# AIRBNB Venice
+In this exercise I use an Airbnb listings dataset: http://insideairbnb.com/get-the-data.html
+It will be interesting to answer some questions using the built-in functions in pandas. The goals in this case study will be to understand some of the differences between each type of listing in our data, defined by the room_type column. Specifically, we would like to know: What is the typical price for a listing? What is the difference in median price for different types of listings? How have these prices changed over time for each listing type? Finally, what is the distribution of typical listing prices?
 
+---source: https://www.datacamp.com/community/tutorials/pandas
 
 # TRAVEL_blog
 
