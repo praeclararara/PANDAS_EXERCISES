@@ -1,3 +1,5 @@
+PANDAS EXERCISES 
+
 # HELLO MONEY IN POLITICS
 By election day, nearly $500 million dollars was spent by political campaigns that sought to influence voters to vote yes or no on those 17 propositions.
 We know that because every dollar that is raised or spent by political campaigns in the state of California has to be disclosed. That’s thanks to the Political Reform Act of 1974, which was itself enacted by voters via a proposition.
@@ -11,7 +13,7 @@ An experimental early versions is used for this exercise (how to import that dat
 
 
 
-# PANDAS_EXERCISES
+# TRAVEL_blog
 
 Data sets for the TRAVEL_BLOG exercise: http://46.101.230.157/dilan/pandas_tutorial_read.csv AND http://46.101.230.157/dilan/pandas_tutorial_buy.csv
 Selecting data
