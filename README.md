@@ -17,6 +17,28 @@ It will be interesting to answer some questions using the built-in functions in 
 
 ---source: https://www.datacamp.com/community/tutorials/pandas
 
+## CHICAGO_EMPLOYEES-SALARIES
+This exercise is good for learning Cleaning Up Currency Data in Pandas.
+This is a useful article that explains the procedure: https://pbpython.com/currency-cleanup.html
+SOLUTION #1 with CUSTOM FUNCTION
+def clean_currency(x):
+    """ If the value is a string, then remove currency symbol and delimiters
+    otherwise, the value is numeric and can be converted
+    """
+    if isinstance(x, str):
+        return(x.replace('$', '').replace(',', ''))
+    return(x)
+This function will check if the supplied value is a string and if it is, will remove all the characters we don’t need. If it is not a string, then it will return the original value.
+
+Here is how we call it and convert the results to a float. I also show the column with the types:
+
+df['Sales'] = df['Sales'].apply(clean_currency).astype('float')
+df['Sales_Type'] = df['Sales'].apply(lambda x: type(x).__name__)
+
+SOLUTION #2 WITH LAMBDA FUNCTION
+df['Sales'] = df['Sales'].apply(lambda x: x.replace('$', '').replace(',', '')
+                                if isinstance(x, str) else x).astype(float)
+
 ## TRAVEL_blog
 
 Data sets for the TRAVEL_BLOG exercise: http://46.101.230.157/dilan/pandas_tutorial_read.csv AND http://46.101.230.157/dilan/pandas_tutorial_buy.csv
