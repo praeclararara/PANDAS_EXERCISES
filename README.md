@@ -17,6 +17,10 @@ It will be interesting to answer some questions using the built-in functions in 
 
 ---source: https://www.datacamp.com/community/tutorials/pandas
 
+## RATING MOVIES - MovieLens dataset
+Find out what are the most rated movies, which movies are most controversial amongst different ages, Which movies do men and women most disagree on.
+Based on "Intro to pandas data structures": http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+
 ## CHICAGO_EMPLOYEES-SALARIES
 This exercise is good for learning Cleaning Up Currency Data in Pandas.
 This is a useful article that explains the procedure: https://pbpython.com/currency-cleanup.html
