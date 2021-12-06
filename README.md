@@ -43,6 +43,15 @@ SOLUTION #2 WITH LAMBDA FUNCTION
 df['Sales'] = df['Sales'].apply(lambda x: x.replace('$', '').replace(',', '')
                                 if isinstance(x, str) else x).astype(float)
 
+## Analysing multiple records of sales
+In this project I use Python Pandas, Seaborn & Python Matplotlib to analyze and answer business questions about 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
+The objective is to stack all the original tables and finding:
+-the city that made the most purchases
+-the most profitable time of the sale
+-the most profitable item
+-the most profitable items sold together
+DATA SOURCE: https://github.com/KeithGalli/Pandas-Data-Science-Tasks/tree/master/SalesAnalysis/Sales_Data
+
 ## TRAVEL_blog
 
 Data sets for the TRAVEL_BLOG exercise: http://46.101.230.157/dilan/pandas_tutorial_read.csv AND http://46.101.230.157/dilan/pandas_tutorial_buy.csv
