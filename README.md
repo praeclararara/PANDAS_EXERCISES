@@ -1,4 +1,4 @@
-# PANDAS EXERCISES - DA 
+# PANDAS PROJECTS - DA 
 
 ## HELLO MONEY IN POLITICS
 By election day, nearly $500 million dollars was spent by political campaigns that sought to influence voters to vote yes or no on those 17 propositions.
