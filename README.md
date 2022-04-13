@@ -11,6 +11,23 @@ An experimental early versions is used for this exercise (how to import that dat
 
 ---source: https://www.firstpythonnotebook.org/money/index.html
 
+## Healthcare-Analysis
+A nationwide survey of hospital costs conducted by the US Agency for Healthcare consists of hospital records of inpatient samples. The given data is restricted to the city of Wisconsin and relates to patients in the age group 0-17 years. The agency wants to analyze the data to research on the healthcare costs and their utilization. Here is a detailed description of the given dataset: AGE : Age of the patient discharged FEMALE : Binary variable that indicates if the patient is female LOS : Length of stay, in days RACE : Race of the patient (specified numerically) TOTCHG : Hospital discharge costs APRDRG : All Patient Refined Diagnosis Related Groups. The data was provided by through the link (under the name HospitalCosts): http://instruction.bus.wisc.edu/jfrees/jfreesbooks/Regression%20Modeling/BookWebDec2010/data.html
+The goals of this project are:
+-To record the patient statistics, the agency wants to find the age category of people who frequent the hospital and has the maximum expenditure.
+-In order of severity of the diagnosis and treatments and to find out the expensive treatments, the agency wants to find the diagnosis related group that   has maximum hospitalization and expenditure.
+-To make sure that there is no malpractice, the agency needs to analyze if the race of the patient is related to the hospitalization costs.
+-To properly utilize the costs, the agency has to analyze the severity of the hospital costs by age and gender for proper allocation of resources.
+-Since the length of stay is the crucial factor for inpatients, the agency wants to find if the length of stay can be predicted from age, gender, and       race.
+-To perform a complete analysis, the agency wants to find the variable that mainly affects the hospital costs.
+In this case study, I have performed the Descriptive Analysis, Exploratory Data Analysis and Predictive Analysis.
+###Classification:
+APR-DRGs
+Early patient classification systems, such as the Medicare DRGs and All Patient (AP) DRGs were developed to provide patient classification systems that relate the types of patients treated to the resources they consume. \ Thus, these systems focus exclusively on resource intensity. \ Some drawbacks of these systems:
+– Medicare DRGs were designed for the Medicare population only.\ – Neither system is severity adjusted and therefore does not\ provide an incentive to care for higher need patients.\ – Higher complexity DRGs (with CC) are formed based on resource\ intensity and do not address severity of illness nor risk of mortality.\ – Medicare addressed these needs by developing MS-DRGs.\
+APR-DRG address these deficiencies\ • All APR DRGs have 4 severity levels\ • Patient age is used in severity leveling\ • Significant pediatric and adult problems have a separate APR-DRG\
+What makes APR-DRG’s Relevant?\ • APR-DRGs make clinical sense. The clinical logic of APR-DRGs has undergone the most intensive scrutiny of any severity system on the market.\ • The logic is open and available. APR-DRGs are not a “black box”.\ • The system was designed to be fully comprehensive and account for all payers, patients, and ages (including pediatrics).\
+
 ## AIRBNB Venice
 In this exercise I use an Airbnb listings dataset: http://insideairbnb.com/get-the-data.html
 It will be interesting to answer some questions using the built-in functions in pandas. The goals in this case study will be to understand some of the differences between each type of listing in our data, defined by the room_type column. Specifically, we would like to know: What is the typical price for a listing? What is the difference in median price for different types of listings? How have these prices changed over time for each listing type? Finally, what is the distribution of typical listing prices?
