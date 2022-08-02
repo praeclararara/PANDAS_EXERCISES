@@ -1,5 +1,8 @@
 # PANDAS PROJECTS - DA 
 
+## DISNEY PLUS MOVIES & TV SERIES EDA
+Analysis of the distribution of content over medium (TV or Movies) ,distribution of content over genre, distribution over countries, renewal pattern and content delivery trend over the years, top directors, top actors.
+
 ## HELLO MONEY IN POLITICS
 By election day, nearly $500 million dollars was spent by political campaigns that sought to influence voters to vote yes or no on those 17 propositions.
 We know that because every dollar that is raised or spent by political campaigns in the state of California has to be disclosed. That’s thanks to the Political Reform Act of 1974, which was itself enacted by voters via a proposition.
